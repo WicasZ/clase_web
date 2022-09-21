@@ -25,3 +25,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+En este proyecto tengo como idea la divicion de la pagina por componentes ya que angular tiene para la creacion de componenentes pretendo dividir las secciones en componenetes por lo que se vera en el SRC varias carpetas que seran mis compoenentes, ya que solo usare Bootstrap los CSS, no tendran nada
