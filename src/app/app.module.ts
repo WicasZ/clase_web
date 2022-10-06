@@ -9,6 +9,11 @@ import { FeaturesComponent } from './features/features.component';
 import { ToolComponent } from './tool/tool.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FormsModule } from '@angular/forms';
+import { TableComponent } from './table/table.component';
+import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './register/register.component';
+import { NablogComponent } from './nablog/nablog.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +23,16 @@ import { NavbarComponent } from './navbar/navbar.component';
     FeaturesComponent,
     ToolComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    TableComponent,
+    LoginComponent,
+    RegisterComponent,
+    NablogComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

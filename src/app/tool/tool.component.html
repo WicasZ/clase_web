@@ -1,5 +1,6 @@
 <div class="text-center mt-5">
-  <h2>Awesome Tools For WordPress webmasters</h2>
+  <h2>{{titulo}}</h2> <!--Se llama una variable de que creo en el component.ts DATA BINDIG-->
+  <!--Esto se llama interpolación-->
   <p>
     Building and maintaining WordPress site is easy with our thoughtfully
     designed tools
@@ -69,3 +70,11 @@
     </div>
   </div>
 </dir>
+
+<button class="btn btn-warning" (click)="onChangeText()">Traducir de texto</button>
+<br>
+<br>
+<label for="text">Inserte texto</label><br>
+<input type="text" [(ngModel)] = "name">
+<p>Resultado</p>
+<p>{{name}}</p>
